@@ -6,7 +6,4 @@ module.exports = function(app){
     app.get('/tradeMessages',cors(), tradeMessages.findAll);
     app.get('/tradeMessages/:userId', tradeMessages.findByUserId);
     app.post('/tradeMessages', tradeMessages.add);
-    // I don't think an update or delete method is required
-    //app.put('/tradeMessages/:id', tradeMessages.update);
-    //app.delete('/tradeMessages/:id', tradeMessages.delete);
 }
