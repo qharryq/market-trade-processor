@@ -1,0 +1,19 @@
+{
+  "name": "market-trade-processor",
+  "version": "1.0.0",
+  "description": "Consumes trade messages via an endpoint, processes those messages and displays them on the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "mongoose": "^5.3.1"
+  }
+}
