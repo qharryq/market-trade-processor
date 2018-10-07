@@ -1,7 +1,7 @@
 # market-trade-processor
 
 To install:
-1. CLone from Github
+1. Clone from Github
 2. Run npm install in the base directory
 3. Install MongoDB - on mac this is done with the command: brew install mongodb
 3. Run mongodb with the command: mongod
